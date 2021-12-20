@@ -1,0 +1,589 @@
+{
+    "data": [
+      {
+        "date": "2021-12-10T00:00:00.000Z",
+        "payload": {
+          "app": {
+            "label": "Sport Heroes Tracker",
+            "name": "sportheroes"
+          },
+          "climb": 0,
+          "distance": 26,
+          "duration": 18,
+          "isDaily": true,
+          "isValid": true,
+          "isUserCreated": false,
+          "points": 1,
+          "steps": 35,
+          "type": "Walking"
+        },
+        "resourceId": "61b31cf59521210007c1d502",
+        "displayPriority": 300,
+        "type": "activity"
+      },
+      {
+        "date": "2021-12-09T00:00:00.000Z",
+        "payload": {
+          "app": {
+            "label": "Sport Heroes Tracker",
+            "name": "sportheroes"
+          },
+          "climb": 0,
+          "distance": 5311,
+          "duration": 3823,
+          "isDaily": true,
+          "isValid": true,
+          "isUserCreated": false,
+          "points": 36,
+          "steps": 7177,
+          "type": "Walking"
+        },
+        "resourceId": "61b1d80740643c0007a66fad",
+        "displayPriority": 300,
+        "type": "activity"
+      },
+      {
+        "date": "2021-12-08T00:00:00.000Z",
+        "payload": {
+          "app": {
+            "label": "Sport Heroes Tracker",
+            "name": "sportheroes"
+          },
+          "climb": 0,
+          "distance": 74,
+          "duration": 52,
+          "isDaily": true,
+          "isValid": true,
+          "isUserCreated": false,
+          "points": 1,
+          "steps": 99,
+          "type": "Walking"
+        },
+        "resourceId": "61b1d8075af20a0006c1d29d",
+        "displayPriority": 300,
+        "type": "activity"
+      },
+      {
+        "date": "2021-12-07T00:00:00.000Z",
+        "payload": {
+          "app": {
+            "label": "Sport Heroes Tracker",
+            "name": "sportheroes"
+          },
+          "climb": 0,
+          "distance": 67,
+          "duration": 47,
+          "isDaily": true,
+          "isValid": true,
+          "isUserCreated": false,
+          "points": 1,
+          "steps": 90,
+          "type": "Walking"
+        },
+        "resourceId": "61af25150f81440006582534",
+        "displayPriority": 300,
+        "type": "activity"
+      },
+      {
+        "date": "2021-12-06T00:00:00.000Z",
+        "payload": {
+          "app": {
+            "label": "Sport Heroes Tracker",
+            "name": "sportheroes"
+          },
+          "climb": 0,
+          "distance": 3301,
+          "duration": 2376,
+          "isDaily": true,
+          "isValid": true,
+          "isUserCreated": false,
+          "points": 23,
+          "steps": 4460,
+          "type": "Walking"
+        },
+        "resourceId": "61adf35cd71f89000615a326",
+        "displayPriority": 300,
+        "type": "activity"
+      },
+      {
+        "date": "2021-12-05T14:07:53.000Z",
+        "payload": {
+          "bonusName": "UserChallengeCompleted",
+          "resourceType": "challenge",
+          "points": 50,
+          "resourceId": "619f6fcc982b560006b557ea"
+        },
+        "resourceId": "61acc7ea7ebfb4000867de90",
+        "displayPriority": 100,
+        "type": "bonus"
+      },
+      {
+        "date": "2021-12-05T14:07:53.000Z",
+        "payload": {
+          "timeframe": {
+            "start": "2021-11-29T00:01:00.000Z",
+            "end": "2021-12-05T23:59:00.000Z"
+          },
+          "challengeType": "solo",
+          "slug": "21-12-cyclingweek1",
+          "display": {
+            "hashtag": null,
+            "moneyMultiplier": null,
+            "color": {
+              "client": null
+            },
+            "crm": {
+              "finishers": {
+                "content": null,
+                "ctaText": null,
+                "ctaLink": null
+              },
+              "finishersPush": {
+                "title": "Yay! You finished the challenge.",
+                "message": "Check to see if you've won 🎁"
+              },
+              "winners": {
+                "content": null,
+                "ctaText": null,
+                "ctaLink": null
+              },
+              "registration": {}
+            },
+            "promoteText": null,
+            "promote": null,
+            "highlightCta": null,
+            "highlight": false,
+            "position": false,
+            "rewardCover": null,
+            "badge": "https://assets.sportheroesgroup.com/challenges/619f6fcc982b560006b557ea/Fichier2081637921388102.png?v=1637921388",
+            "indexCover": "https://assets.sportheroesgroup.com/challenges/UHCycW4Card20211125T120256.27311637838195839.jpg?v=1637838196",
+            "cover": "https://assets.sportheroesgroup.com/challenges/RHHyundai9211637838197257.jpg?v=1637838197",
+            "objective": "50 points",
+            "rewardConditions": "<p>Activities taken into account: cycling, indoor cycling (If you wish to manually declare an indoor cycling activity compatible with this kilometre challenge, create a cycling activity, which will allow you to declare the number of kilometres travelled), electric bike, handbike</p>",
+            "rewardName": null,
+            "content": "<p style=\"text-align: justify;\">Be on the ball from the beginning of December and finish the year in style. Your objective is simple, accumulate 50 points and continue your efforts to enjoy the festive season without remorse.</p>\n<p style=\"text-align: justify;\"><strong>Your challenge</strong><br />Collect 50 cycling points</p>\n<p style=\"text-align: justify;\"><strong>Your reward</strong><br />A new badge in your collection, 50 bonus points to move your team up the rankings and the pride of having surpassed yourself once again.&nbsp;</p>\n<p style=\"text-align: justify;\"><strong>How to register your activities for this challenge ?<br /></strong>First, make sure you have connected your phone's internal pedometer to the United Heroes application so that you can track your steps in real time. Then there are 2 easy ways to track your activities on the app:&nbsp;</p>\n<ul style=\"text-align: justify;\">\n<li>Synchronize the application used to record your activity directly with United Heroes. You can set up the connection from the \"More\" &gt; \"Connected Apps\" section.</li>\n<li>Directly from your dashboard by using the \"+\" button in the top left corner, where you specify the activity you've practiced, the date and the duration. You can add up to 3 manual activities a day, of maximum 2 hours each.</li>\n</ul>\n<p style=\"text-align: justify;\"><strong>How to motivate your team ?</strong><br />Motivate your colleagues to surpass themselves by sharing the challenge of the week in your \"my team\" space and by sharing it on your company network.</p>",
+            "excerpt": "From 29 November you have one week to collect 50 cycling points and win 50 bonus points.",
+            "type": "CLASSIC",
+            "slug": null,
+            "title": "Cycling Challenge",
+            "pt": {
+              "title": "Desafio do ciclismo",
+              "slug": null,
+              "type": "CLASSIC",
+              "content": "<p>Estar no baile desde o in&iacute;cio de Dezembro e terminar o ano em grande estilo. O seu objectivo &eacute; simples, acumular 50 pontos e continuar os seus esfor&ccedil;os para desfrutar da &eacute;poca festiva sem remorsos.</p>\n<p style=\"text-align: justify;\"><strong>O seu desafio</strong><br />Recolher 50 pontos por bicicleta</p>\n<p style=\"text-align: justify;\"><strong>A sua recompensa</strong><br />Um novo crach&aacute; na sua colec&ccedil;&atilde;o, 50 pontos de b&oacute;nus para mover a sua equipa para cima na classifica&ccedil;&atilde;o e o orgulho de ter ultrapassado a si pr&oacute;prio mais uma vez.&nbsp;</p>\n<p><strong>Como registrar suas atividades para este desafio ?</strong></p>\n<p>Primeiro, certifique-se de ter conectado o ped&ocirc;metro interno do seu telefone ao aplicativo United Heroes para que voc&ecirc; possa acompanhar seus passos em tempo real. Depois h&aacute; 2 maneiras f&aacute;ceis de rastrear suas atividades no aplicativo:&nbsp;</p>\n<ul>\n<li>Sincronize o aplicativo utilizado para registrar sua atividade diretamente com a United Heroes, voc&ecirc; pode ent&atilde;o configurar a conex&atilde;o a partir da se&ccedil;&atilde;o \"Mais\" &gt; \"Aplicativos Conectados\".</li>\n<li>Diretamente de seu painel de controle, usando o bot&atilde;o \"+\" no canto superior esquerdo, onde voc&ecirc; especifica a atividade que praticou, a data e a dura&ccedil;&atilde;o. Voc&ecirc; pode somar at&eacute; 3 atividades manuais por dia, de no m&aacute;ximo 2 horas cada uma.</li>\n</ul>\n<p><strong>Como motivar sua equipe ?</strong><br />Motive seus colegas a superar a si mesmos compartilhando o desafio da semana em seu espa&ccedil;o \"minha equipe\" e compartilhando-o na rede de sua empresa.</p>",
+              "excerpt": "A partir de 29 de Novembro tem uma semana para acumular 50 pontos de ciclismo e ganhar 50 pontos de bónus.",
+              "rewardName": null,
+              "rewardConditions": "<p>Actividades tidas em conta: ciclismo, indoor cycling (Se desejar declarar manualmente uma actividade de ciclismo indoor compat&iacute;vel com este desafio de quil&oacute;metros, crie uma actividade de ciclismo, que lhe permitir&aacute; declarar o n&uacute;mero de quil&oacute;metros percorridos), bicicleta el&eacute;ctrica, handbike</p>",
+              "objective": "50 pontos",
+              "cover": "https://assets.sportheroesgroup.com/challenges/RHHyundai9211637838197257.jpg?v=1637838197",
+              "indexCover": "https://assets.sportheroesgroup.com/challenges/UHCycW4Card20211125T120256.27311637838195839.jpg?v=1637838196",
+              "badge": "https://assets.sportheroesgroup.com/challenges/619f6fcc982b560006b557ea/Fichier2081637921388102.png?v=1637921388",
+              "rewardCover": null,
+              "position": false,
+              "highlight": false,
+              "highlightCta": null,
+              "promote": null,
+              "promoteText": null,
+              "crm": {
+                "finishers": {
+                  "content": null,
+                  "ctaText": null,
+                  "ctaLink": null
+                },
+                "finishersPush": {
+                  "title": null,
+                  "message": null
+                },
+                "winners": {
+                  "content": null,
+                  "ctaText": null,
+                  "ctaLink": null
+                },
+                "registration": {}
+              },
+              "moneyMultiplier": null,
+              "hashtag": null,
+              "goal": 50
+            },
+            "nl": {
+              "title": "Wieler Uitdaging",
+              "slug": null,
+              "type": "CLASSIC",
+              "content": "<p style=\"text-align: justify;\">Wees vanaf begin december bij de les en sluit het jaar in stijl af. Uw doel is eenvoudig, 50 punten verzamelen en uw inspanningen voortzetten om zonder wroeging van het feestseizoen te genieten.</p>\n<p style=\"text-align: justify;\"><strong>Uw uitdaging</strong><br />Verzamel 50 punten met de fiets</p>\n<p style=\"text-align: justify;\"><strong>Uw beloning</strong><br />Een nieuwe badge in je collectie, 50 bonuspunten om je team hoger in het klassement te plaatsen en de trots dat je jezelf weer eens overtroffen hebt.&nbsp;</p>\n<p style=\"text-align: justify;\"><strong>Hoe registreer je je activiteiten voor deze uitdaging ?</strong></p>\n<p style=\"text-align: justify;\">Zorg er eerst voor dat u de interne stappenteller van uw telefoon hebt aangesloten op de United Heroes applicatie, zodat u uw stappen in realtime kunt volgen op de applicatie. Vervolgens zijn er 2 eenvoudige manieren om je activiteiten te volgen op de app:&nbsp;</p>\n<ul style=\"text-align: justify;\">\n<li style=\"text-align: justify;\">Synchroniseer de toepassing die wordt gebruikt om uw activiteit rechtstreeks met United Heroes op te nemen, u kunt vervolgens de verbinding configureren via de sectie \"Meer\" &gt; \"Aangesloten toepassingen\".</li>\n<li style=\"text-align: justify;\">Rechtstreeks vanaf uw dashboard met behulp van de \"+\" knop in de linkerbovenhoek, waar u de activiteit die u heeft geoefend, de datum en de duur aangeeft. U kunt tot 3 manuele activiteiten per dag toevoegen, van elk maximaal 2 uur.</li>\n</ul>\n<p style=\"text-align: justify;\"><strong>Hoe motiveer je je team ?</strong><br />Motiveer uw collega's om zichzelf te overtreffen door de uitdaging van de week te delen in uw \"mijn team\" ruimte en door deze te delen op uw bedrijfsnetwerk.<br />Prize to win</p>",
+              "excerpt": "Vanaf 29 november heeft u een week de tijd om 50 fietspunten te verzamelen en 50 bonuspunten te winnen.",
+              "rewardName": null,
+              "rewardConditions": "<p>Activiteiten die in aanmerking worden genomen: fietsen, indoorfietsen (als u handmatig een indoorfietsactiviteit wilt declareren die compatibel is met deze kilometeruitdaging, maak dan een fietsactiviteit aan, waarmee u het aantal afgelegde kilometers kunt declareren), elektrische fiets, handbike</p>",
+              "objective": "50 punten",
+              "cover": "https://assets.sportheroesgroup.com/challenges/RHHyundai9211637838197257.jpg?v=1637838197",
+              "indexCover": "https://assets.sportheroesgroup.com/challenges/UHCycW4Card20211125T120256.27311637838195839.jpg?v=1637838196",
+              "badge": "https://assets.sportheroesgroup.com/challenges/619f6fcc982b560006b557ea/Fichier2081637921388102.png?v=1637921388",
+              "rewardCover": null,
+              "position": false,
+              "highlight": false,
+              "highlightCta": null,
+              "promote": null,
+              "promoteText": null,
+              "crm": {
+                "finishers": {
+                  "content": null,
+                  "ctaText": null,
+                  "ctaLink": null
+                },
+                "finishersPush": {
+                  "title": null,
+                  "message": null
+                },
+                "winners": {
+                  "content": null,
+                  "ctaText": null,
+                  "ctaLink": null
+                },
+                "registration": {}
+              },
+              "moneyMultiplier": null,
+              "hashtag": null,
+              "goal": 50
+            },
+            "it": {
+              "title": "Sfida ciclistica",
+              "slug": null,
+              "type": "CLASSIC",
+              "content": "<p style=\"text-align: justify;\">Sii in palla dall'inizio di dicembre e finisci l'anno con stile. Il tuo obiettivo &egrave; semplice, accumulare 50 punti e continuare i tuoi sforzi per goderti le feste senza rimorsi.</p>\n<p style=\"text-align: justify;\"><strong>La tua sfida</strong><br />Raccogli 50 punti in bicicletta</p>\n<p style=\"text-align: justify;\"><strong>La tua ricompensa</strong><br />Un nuovo distintivo nella tua collezione, 50 punti bonus per far salire la tua squadra in classifica e l'orgoglio di aver superato te stesso ancora una volta.&nbsp;</p>\n<p style=\"text-align: justify;\"><strong>Come registrare le tue attivit&agrave; per questa sfida ?</strong></p>\n<p style=\"text-align: justify;\">Innanzitutto, assicurati di aver collegato il contapassi interno del tuo telefono all'applicazione United Heroes in modo da poter seguire i tuoi passi in tempo reale. Poi ci sono 2 semplici modi per tracciare le tue attivit&agrave; sull'applicazione:&nbsp;</p>\n<ul style=\"text-align: justify;\">\n<li>Sincronizzare l'applicazione utilizzata per registrare la tua attivit&agrave; direttamente con United Heroes, poi configurare la connessione dalla sezione \"More\" &gt; \"Connected Apps\".</li>\n<li>Direttamente dal vostro pannello utilizzando il pulsante \"+\" in alto a sinistra, dove specificate l'attivit&agrave; che avete praticato, la data e la durata. Puoi aggiungere fino a 3 attivit&agrave; manuali al giorno, di massimo 2 ore ciascuna.</li>\n</ul>\n<p style=\"text-align: justify;\"><strong>Come motivare la vostra squadra ?</strong><br />Motivate i vostri colleghi a superare se stessi condividendo la sfida della settimana nel vostro spazio \"my team\" e condividendola sulla vostra rete aziendale.</p>\n<p>&nbsp;</p>",
+              "excerpt": "Dal 29 novembre hai una settimana per raccogliere 50 punti ciclismo e vincere 50 punti bonus.",
+              "rewardName": null,
+              "rewardConditions": "<p>Attivit&agrave; prese in considerazione: ciclismo, ciclismo indoor (se desideri dichiarare manualmente un'attivit&agrave; di ciclismo indoor compatibile con questa sfida chilometrica, crea un'attivit&agrave; di ciclismo, che ti permetter&agrave; di dichiarare il numero di chilometri percorsi), bici elettrica, handbike</p>",
+              "objective": "50 punti",
+              "cover": "https://assets.sportheroesgroup.com/challenges/RHHyundai9211637838197257.jpg?v=1637838197",
+              "indexCover": "https://assets.sportheroesgroup.com/challenges/UHCycW4Card20211125T120256.27311637838195839.jpg?v=1637838196",
+              "badge": "https://assets.sportheroesgroup.com/challenges/619f6fcc982b560006b557ea/Fichier2081637921388102.png?v=1637921388",
+              "rewardCover": null,
+              "position": false,
+              "highlight": false,
+              "highlightCta": null,
+              "promote": null,
+              "promoteText": null,
+              "crm": {
+                "finishers": {
+                  "content": null,
+                  "ctaText": null,
+                  "ctaLink": null
+                },
+                "finishersPush": {
+                  "title": null,
+                  "message": null
+                },
+                "winners": {
+                  "content": null,
+                  "ctaText": null,
+                  "ctaLink": null
+                },
+                "registration": {}
+              },
+              "moneyMultiplier": null,
+              "hashtag": null,
+              "goal": 50
+            },
+            "es": {
+              "title": "Desafío ciclista",
+              "slug": null,
+              "type": "CLASSIC",
+              "content": "<p>Ponte al d&iacute;a desde principios de diciembre y termina el a&ntilde;o con estilo. Tu objetivo es sencillo, acumular 50 puntos y seguir esforz&aacute;ndote para disfrutar de las fiestas sin remordimientos.</p>\n<p style=\"text-align: justify;\"><strong>Su reto</strong><br />Recoger 50 puntos en bicicleta</p>\n<p style=\"text-align: justify;\"><strong>Tu recompensa</strong><br />Una nueva insignia en tu colecci&oacute;n, 50 puntos de bonificaci&oacute;n para que tu equipo suba en la clasificaci&oacute;n y el orgullo de haberte superado una vez m&aacute;s.&nbsp;</p>\n<p style=\"text-align: justify;\"><strong>&iquest;C&oacute;mo registrar sus actividades para este desaf&iacute;o?</strong></p>\n<p style=\"text-align: justify;\">Primero, aseg&uacute;rate de que has conectado el pod&oacute;metro interno de tu tel&eacute;fono a la aplicaci&oacute;n de United Heroes para que puedas seguir tus pasos en tiempo real en la aplicaci&oacute;n. Luego hay 2 maneras f&aacute;ciles de rastrear tus actividades en la aplicaci&oacute;n:&nbsp;</p>\n<ul>\n<li style=\"text-align: justify;\">Sincronizar la aplicaci&oacute;n utilizada para registrar su actividad directamente con United Heroes. Puede configurar la conexi&oacute;n desde la secci&oacute;n \"M&aacute;s\" &gt; \"Aplicaciones conectadas\".</li>\n<li style=\"text-align: justify;\">Directamente desde el panel de control usando el bot&oacute;n \"+\" en la esquina superior izquierda, donde especificas la actividad que has practicado, la fecha y la duraci&oacute;n. Puedes a&ntilde;adir hasta 3 actividades manuales al d&iacute;a, de un m&aacute;ximo de 2 horas cada una.</li>\n</ul>",
+              "excerpt": "A partir del 29 de noviembre tienes una semana para reunir 50 puntos de ciclismo y ganar 50 puntos de bonificación.",
+              "rewardName": null,
+              "rewardConditions": "<p>Actividades que se tienen en cuenta: ciclismo, ciclismo indoor (Si desea declarar manualmente una actividad de ciclismo indoor compatible con este reto del kil&oacute;metro, cree una actividad de ciclismo, que le permitir&aacute; declarar el n&uacute;mero de kil&oacute;metros recorridos), bicicleta el&eacute;ctrica, handbike</p>",
+              "objective": "50 puntos",
+              "cover": "https://assets.sportheroesgroup.com/challenges/RHHyundai9211637838197257.jpg?v=1637838197",
+              "indexCover": "https://assets.sportheroesgroup.com/challenges/UHCycW4Card20211125T120256.27311637838195839.jpg?v=1637838196",
+              "badge": "https://assets.sportheroesgroup.com/challenges/619f6fcc982b560006b557ea/Fichier2081637921388102.png?v=1637921388",
+              "rewardCover": null,
+              "position": false,
+              "highlight": false,
+              "highlightCta": null,
+              "promote": null,
+              "promoteText": null,
+              "crm": {
+                "finishers": {
+                  "content": null,
+                  "ctaText": null,
+                  "ctaLink": null
+                },
+                "finishersPush": {
+                  "title": null,
+                  "message": null
+                },
+                "winners": {
+                  "content": null,
+                  "ctaText": null,
+                  "ctaLink": null
+                },
+                "registration": {}
+              },
+              "moneyMultiplier": null,
+              "hashtag": null,
+              "goal": 50
+            },
+            "en": {
+              "title": "Cycling Challenge",
+              "slug": null,
+              "type": "CLASSIC",
+              "content": "<p style=\"text-align: justify;\">Be on the ball from the beginning of December and finish the year in style. Your objective is simple, accumulate 50 points and continue your efforts to enjoy the festive season without remorse.</p>\n<p style=\"text-align: justify;\"><strong>Your challenge</strong><br />Collect 50 cycling points</p>\n<p style=\"text-align: justify;\"><strong>Your reward</strong><br />A new badge in your collection, 50 bonus points to move your team up the rankings and the pride of having surpassed yourself once again.&nbsp;</p>\n<p style=\"text-align: justify;\"><strong>How to register your activities for this challenge ?<br /></strong>First, make sure you have connected your phone's internal pedometer to the United Heroes application so that you can track your steps in real time. Then there are 2 easy ways to track your activities on the app:&nbsp;</p>\n<ul style=\"text-align: justify;\">\n<li>Synchronize the application used to record your activity directly with United Heroes. You can set up the connection from the \"More\" &gt; \"Connected Apps\" section.</li>\n<li>Directly from your dashboard by using the \"+\" button in the top left corner, where you specify the activity you've practiced, the date and the duration. You can add up to 3 manual activities a day, of maximum 2 hours each.</li>\n</ul>\n<p style=\"text-align: justify;\"><strong>How to motivate your team ?</strong><br />Motivate your colleagues to surpass themselves by sharing the challenge of the week in your \"my team\" space and by sharing it on your company network.</p>",
+              "excerpt": "From 29 November you have one week to collect 50 cycling points and win 50 bonus points.",
+              "rewardName": null,
+              "rewardConditions": "<p>Activities taken into account: cycling, indoor cycling (If you wish to manually declare an indoor cycling activity compatible with this kilometre challenge, create a cycling activity, which will allow you to declare the number of kilometres travelled), electric bike, handbike</p>",
+              "objective": "50 points",
+              "cover": "https://assets.sportheroesgroup.com/challenges/RHHyundai9211637838197257.jpg?v=1637838197",
+              "indexCover": "https://assets.sportheroesgroup.com/challenges/UHCycW4Card20211125T120256.27311637838195839.jpg?v=1637838196",
+              "badge": "https://assets.sportheroesgroup.com/challenges/619f6fcc982b560006b557ea/Fichier2081637921388102.png?v=1637921388",
+              "rewardCover": null,
+              "position": false,
+              "highlight": false,
+              "highlightCta": null,
+              "promote": null,
+              "promoteText": null,
+              "crm": {
+                "finishers": {
+                  "content": null,
+                  "ctaText": null,
+                  "ctaLink": null
+                },
+                "finishersPush": {
+                  "title": "Yay! You finished the challenge.",
+                  "message": "Check to see if you've won 🎁"
+                },
+                "winners": {
+                  "content": null,
+                  "ctaText": null,
+                  "ctaLink": null
+                },
+                "registration": {}
+              },
+              "moneyMultiplier": null,
+              "hashtag": null,
+              "goal": 50
+            },
+            "fr": {
+              "title": "Challenge Cycling",
+              "slug": null,
+              "type": "CLASSIC",
+              "content": "<p>Soyez d&rsquo;attaque d&egrave;s le d&eacute;but de ce mois de D&eacute;cembre et terminez l&rsquo;ann&eacute;e en beaut&eacute;. Votre objectif est simple, cumuler 50 points et poursuivre vos efforts pour profiter un maximum et sans remords des f&ecirc;tes.</p>\n<p style=\"text-align: justify;\"><strong>Votre d&eacute;fi</strong><br />Cumuler 50 points &agrave; v&eacute;lo</p>\n<p style=\"text-align: justify;\"><strong>Votre r&eacute;compense</strong><br />Un nouveau badge dans votre collection, 50 points bonus pour faire monter votre &eacute;quipe au classement et la fiert&eacute; de s'&ecirc;tre une nouvelle fois d&eacute;pass&eacute;.&nbsp;</p>\n<p style=\"text-align: justify;\"><strong>Comment enregistrer vos activit&eacute;s pour ce d&eacute;fi ?</strong><br />Assurez-vous dans un premier temps d&rsquo;avoir connect&eacute; le podom&egrave;tre interne de votre t&eacute;l&eacute;phone &agrave; l&rsquo;application United Heroes pour ainsi faire remonter vos pas en temps r&eacute;el. Ensuite il y a une 2 mani&egrave;res simples de faire remonter vos activit&eacute;s sur l&rsquo;application:&nbsp;</p>\n<ul>\n<li style=\"text-align: justify;\">Via votre application de sport ou votre montre connect&eacute;e dont vous pouvez configurer la connexion depuis la section \"Plus\" &gt; \"App connect&eacute;es\".</li>\n<li style=\"text-align: justify;\">Ou bien directement depuis votre dashboard en utilisant le bouton \"+\" en haut &agrave; gauche, o&ugrave; vous pr&eacute;cisez l'activit&eacute; pratiqu&eacute;e, la date et la dur&eacute;e. Vous pouvez ajouter jusqu'&agrave; 3 activit&eacute;s manuelles par jour dans la limite de 2 heures par activit&eacute;.&nbsp;</li>\n</ul>\n<p><strong>Comment motiver votre &eacute;quipe ?</strong></p>\n<p style=\"text-align: justify;\">Motivez vos coll&egrave;gues &agrave; se d&eacute;passer en faisant part du challenge de la semaine dans votre espace &ldquo;mon &eacute;quipe&rdquo; et en le partageant sur votre r&eacute;seau d&rsquo;entreprise.</p>",
+              "excerpt": "À partir du 29 novembre vous avez une semaine pour cumuler 50 points de vélo et remporter 50 points bonus.",
+              "rewardName": null,
+              "rewardConditions": "<p>Activit&eacute;s prises en compte : v&eacute;lo, v&eacute;lo d'int&eacute;rieur (Si vous souhaitez d&eacute;clarer manuellement une activit&eacute; de v&eacute;lo d'int&eacute;rieur compatible avec ce challenge en kilom&egrave;tres, cr&eacute;ez une activit&eacute; v&eacute;lo, qui vous permettra de d&eacute;clarer le nombre de kilom&egrave;tres parcourus), v&eacute;lo &eacute;l&eacute;ctrique, handbike</p>",
+              "objective": "50 points",
+              "cover": "https://assets.sportheroesgroup.com/challenges/RHHyundai9211637838197257.jpg?v=1637838197",
+              "indexCover": "https://assets.sportheroesgroup.com/challenges/UHCycW4Card20211125T120256.27311637838195839.jpg?v=1637838196",
+              "badge": "https://assets.sportheroesgroup.com/challenges/619f6fcc982b560006b557ea/Fichier2081637921388102.png?v=1637921388",
+              "rewardCover": null,
+              "position": false,
+              "highlight": false,
+              "highlightCta": null,
+              "promote": null,
+              "promoteText": null,
+              "crm": {
+                "finishers": {
+                  "content": null,
+                  "ctaText": null,
+                  "ctaLink": null
+                },
+                "finishersPush": {
+                  "title": "Bravo ! Challenge validé !",
+                  "message": "Decouvrez si vous avez gagné 🎁"
+                },
+                "winners": {
+                  "content": null,
+                  "ctaText": null,
+                  "ctaLink": null
+                },
+                "registration": {}
+              },
+              "moneyMultiplier": null,
+              "hashtag": null,
+              "goal": 50
+            },
+            "rightIllu": {},
+            "modalConfirm": {},
+            "cs": {
+              "title": "Cyklistická výzva",
+              "type": "CLASSIC",
+              "content": "<p>Buďte od zač&aacute;tku prosince v obraze a zakončete rok stylově. V&aacute;&scaron; c&iacute;l je jednoduch&yacute;, nasb&iacute;rat 50 bodů a pokračovat ve snaze už&iacute;t si sv&aacute;tečn&iacute; obdob&iacute; bez v&yacute;čitek svědom&iacute;.</p>\n<p style=\"text-align: justify;\"><strong>Va&scaron;e v&yacute;zva</strong><br />Nasb&iacute;rejte 50 bodů na kole</p>\n<p style=\"text-align: justify;\"><strong>Va&scaron;e odměna</strong><br />Nov&yacute; odznak do sb&iacute;rky, 50 bonusov&yacute;ch bodů, kter&eacute; posunou v&aacute;&scaron; t&yacute;m v žebř&iacute;čku, a hrdost na to, že jste opět překonali sami sebe.</p>\n<p style=\"text-align: justify;\"><strong>Jak zaregistrovat sv&eacute; aktivity pro tuto v&yacute;zvu?</strong><br />Nejprve se ujistěte, že jste připojili intern&iacute; krokoměr telefonu k aplikaci United Heroes, abyste mohli sledovat sv&eacute; kroky v re&aacute;ln&eacute;m čase. V aplikaci pak můžete sledovat svou aktivitu dvěma snadn&yacute;mi způsoby:&nbsp;</p>\n<ul style=\"text-align: justify;\">\n<li>Prostřednictv&iacute;m sportovn&iacute; aplikace nebo připojen&yacute;ch hodinek, jejichž připojen&iacute; můžete nakonfigurovat v č&aacute;sti \"V&iacute;ce\" &gt; \"Připojen&aacute; aplikace\".</li>\n<li>Nebo př&iacute;mo z hlavn&iacute;ho panelu pomoc&iacute; tlač&iacute;tka \"+\" vlevo nahoře, kde zad&aacute;te aktivitu, datum a dobu trv&aacute;n&iacute;. Denně můžete přidat až 3 manu&aacute;ln&iacute; činnosti s limitem 2 hodiny na jednu činnost.&nbsp;</li>\n</ul>\n<p style=\"text-align: justify;\"><strong>Jak motivovat svůj t&yacute;m?</strong><br />Motivujte sv&eacute; kolegy k překon&aacute;v&aacute;n&iacute; sebe sama sd&iacute;len&iacute;m v&yacute;zvy t&yacute;dne v prostoru \"můj t&yacute;m\" a jej&iacute;m sd&iacute;len&iacute;m na firemn&iacute; s&iacute;ti.</p>",
+              "excerpt": "Od 29. listopadu máte týden na to, abyste nasbírali 50 cyklistických bodů a získali 50 bonusových bodů.",
+              "rewardConditions": "<p>Zohledňovan&eacute; aktivity: j&iacute;zda na kole, indoor cycling (pokud chcete manu&aacute;lně deklarovat indoor cycling aktivitu kompatibiln&iacute; s touto kilometrovou v&yacute;zvou, vytvořte cyklistickou aktivitu, kter&aacute; v&aacute;m umožn&iacute; deklarovat počet ujet&yacute;ch kilometrů), elektrokolo, handbike.</p>",
+              "objective": "50 bodů",
+              "cover": "https://assets.sportheroesgroup.com/challenges/RHHyundai9211637838197257.jpg?v=1637838197",
+              "indexCover": "https://assets.sportheroesgroup.com/challenges/UHCycW4Card20211125T120256.27311637838195839.jpg?v=1637838196",
+              "badge": "https://assets.sportheroesgroup.com/challenges/619f6fcc982b560006b557ea/Fichier2081637921388102.png?v=1637921388",
+              "rewardCover": null,
+              "position": false,
+              "highlight": false,
+              "highlightCta": null,
+              "promote": null,
+              "promoteText": null,
+              "crm": {
+                "finishers": {},
+                "finishersPush": {},
+                "winners": {},
+                "registration": {}
+              },
+              "moneyMultiplier": null,
+              "hashtag": null,
+              "goal": 50
+            },
+            "de": {
+              "title": "Herausforderung Radfahren",
+              "type": "CLASSIC",
+              "content": "<p>Der November neigt sich dem Ende zu und Sie m&uuml;ssen sich noch einmal anstrengen, um so viele Punkte wie m&ouml;glich zu erzielen. Vervollst&auml;ndigen Sie Ihre beiden Aktivit&auml;ten und heben Sie Ihren Punktez&auml;hler ab, um in der Gesamtwertung zu fliegen. Sie m&uuml;ssen in dieser Woche nur zweimal fahren und schon sind Sie dabei!</p>\n<p><strong>Deine Herausforderung</strong><br />2 Aktivit&auml;ten mit dem Fahrrad durchf&uuml;hren</p>\n<p><strong>Deine Belohnung</strong><br />Ein neues Abzeichen in Ihrer Sammlung, 50 Bonuspunkte, mit denen Ihr Team in der Rangliste aufsteigt, und der Stolz, sich wieder einmal selbst &uuml;bertroffen zu haben.</p>\n<p><strong>Wie k&ouml;nnen Sie Ihre Aktivit&auml;ten f&uuml;r diesen Wettbewerb anmelden?</strong><br />Stellen Sie zun&auml;chst sicher, dass Sie den internen Schrittz&auml;hler Ihres Telefons mit der United Heroes-App verbunden haben, um Ihre Schritte in Echtzeit zu verfolgen. Dann gibt es 2 einfache M&ouml;glichkeiten, deine Aktivit&auml;t in der App zu verfolgen:&nbsp;</p>\n<ul>\n<li>&Uuml;ber Ihre Sport-App oder Ihre verbundene Uhr, die Sie im Bereich \"Mehr\" &gt; \"Verbundene Apps\" f&uuml;r die Verbindung mit der App konfigurieren k&ouml;nnen.</li>\n<li>Oder direkt von Ihrem Dashboard aus &uuml;ber die Schaltfl&auml;che \"+\" oben links, wo Sie die Aktivit&auml;t, die Sie durchgef&uuml;hrt haben, das Datum und die Dauer angeben. Sie k&ouml;nnen bis zu 3 manuelle T&auml;tigkeiten pro Tag mit einer H&ouml;chstdauer von 2 Stunden pro T&auml;tigkeit hinzuf&uuml;gen.&nbsp;</li>\n</ul>\n<p><br /><strong>Wie k&ouml;nnen Sie Ihr Team motivieren?</strong></p>\n<p>Motivieren Sie Ihre Kollegen zu H&ouml;chstleistungen, indem Sie die Herausforderung der Woche in Ihrem \"Mein Team\"-Bereich ver&ouml;ffentlichen und in Ihrem Unternehmensnetzwerk teilen.</p>",
+              "excerpt": "Ab dem 22. November haben Sie eine Woche Zeit, um 2 Fahrradaktivitäten zu absolvieren und 50 Bonuspunkte zu gewinnen.",
+              "rewardConditions": "<p>Ber&uuml;cksichtigte Aktivit&auml;ten: Radfahren, Indoor-Cycling (Wenn Sie manuell eine Indoor-Cycling-Aktivit&auml;t angeben m&ouml;chten, die mit dieser Kilometer-Challenge kompatibel ist, erstellen Sie eine Fahrradaktivit&auml;t, bei der Sie die Anzahl der gefahrenen Kilometer angeben k&ouml;nnen), Elektrofahrrad, Handbike</p>",
+              "objective": "50 Punkte",
+              "cover": "https://assets.sportheroesgroup.com/challenges/RHHyundai9211637838197257.jpg?v=1637838197",
+              "indexCover": "https://assets.sportheroesgroup.com/challenges/UHCycW4Card20211125T120256.27311637838195839.jpg?v=1637838196",
+              "badge": "https://assets.sportheroesgroup.com/challenges/619f6fcc982b560006b557ea/Fichier2081637921388102.png?v=1637921388",
+              "rewardCover": null,
+              "position": false,
+              "highlight": false,
+              "highlightCta": null,
+              "promote": null,
+              "promoteText": null,
+              "crm": {
+                "finishers": {},
+                "finishersPush": {},
+                "winners": {},
+                "registration": {}
+              },
+              "moneyMultiplier": null,
+              "hashtag": null,
+              "goal": 50
+            },
+            "goal": 50
+          },
+          "calculationState": {
+            "finishedAt": "2021-12-05T14:07:53.000Z",
+            "successActivities": {
+              "climb": 0,
+              "descent": 0,
+              "distance": 30000,
+              "duration": 5400,
+              "points": 75
+            }
+          },
+          "conditions": {
+            "noObjective": false
+          },
+          "users": 4128
+        },
+        "resourceId": "619f6fcc982b560006b557ea",
+        "displayPriority": 200,
+        "type": "challenge"
+      },
+      {
+        "date": "2021-12-05T14:07:53.000Z",
+        "payload": {
+          "app": {
+            "label": "Sport Heroes Tracker",
+            "name": "sportheroes"
+          },
+          "climb": 0,
+          "distance": 30000,
+          "duration": 5400,
+          "isDaily": false,
+          "isValid": true,
+          "isUserCreated": true,
+          "points": 75,
+          "steps": 0,
+          "type": "Cycling"
+        },
+        "resourceId": "61acc7bb855b57000b3e3d58",
+        "displayPriority": 300,
+        "type": "activity"
+      },
+      {
+        "date": "2021-12-05T00:00:00.000Z",
+        "payload": {
+          "app": {
+            "label": "Sport Heroes Tracker",
+            "name": "sportheroes"
+          },
+          "climb": 0,
+          "distance": 3005,
+          "duration": 2163,
+          "isDaily": true,
+          "isValid": true,
+          "isUserCreated": false,
+          "points": 21,
+          "steps": 4060,
+          "type": "Walking"
+        },
+        "resourceId": "61adf35b114fc50007a3c315",
+        "displayPriority": 300,
+        "type": "activity"
+      },
+      {
+        "date": "2021-12-04T00:00:00.000Z",
+        "payload": {
+          "app": {
+            "label": "Sport Heroes Tracker",
+            "name": "sportheroes"
+          },
+          "climb": 0,
+          "distance": 4721,
+          "duration": 3398,
+          "isDaily": true,
+          "isValid": true,
+          "isUserCreated": false,
+          "points": 32,
+          "steps": 6379,
+          "type": "Walking"
+        },
+        "resourceId": "61adf35bf6524e0006c0f35b",
+        "displayPriority": 300,
+        "type": "activity"
+      },
+      {
+        "date": "2021-12-03T00:00:00.000Z",
+        "payload": {
+          "app": {
+            "label": "Sport Heroes Tracker",
+            "name": "sportheroes"
+          },
+          "climb": 0,
+          "distance": 43,
+          "duration": 30,
+          "isDaily": true,
+          "isValid": true,
+          "isUserCreated": false,
+          "points": 1,
+          "steps": 57,
+          "type": "Walking"
+        },
+        "resourceId": "61adf35ca9dcad0007dd50e3",
+        "displayPriority": 300,
+        "type": "activity"
+      },
+      {
+        "date": "2021-12-02T00:00:00.000Z",
+        "payload": {
+          "app": {
+            "label": "Sport Heroes Tracker",
+            "name": "sportheroes"
+          },
+          "climb": 0,
+          "distance": 1458,
+          "duration": 1049,
+          "isDaily": true,
+          "isValid": true,
+          "isUserCreated": false,
+          "points": 10,
+          "steps": 1969,
+          "type": "Walking"
+        },
+        "resourceId": "61adf35cae72510006c47574",
+        "displayPriority": 300,
+        "type": "activity"
+      }
+    ],
+    "meta": {
+      "count": 12,
+      "hasNext": true,
+      "next": "2021-12-02T00:00:00.000Z"
+    }
+  }
