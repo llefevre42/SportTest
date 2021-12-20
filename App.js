@@ -8,7 +8,6 @@ var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'A
 const { height } = Dimensions.get("window");
 const { width } = Dimensions.get("window");
 
-
 function cmpDate(d1, d2) {
   var d1_tmp = new Date(d1);
   var d2_tmp = new Date(d2);
@@ -37,15 +36,12 @@ export default function App() {
       .finally(() => setLoading(false));
   }, []);
 */
-
   const data = require('./feed.json');
-  console.log(data)
   data.data.sort(function (a, b) {
     var c = new Date(a.date);
     var d = new Date(b.date);
     return d - c
   })
-  console.log(data.data)
   return (
     <View style={{ backgroundColor: "black", width: width }}>
       <FlatList
@@ -65,7 +61,7 @@ export default function App() {
             {item.type == "activity" && item.payload.type == "Walking" ?
               <View style={{ flex: 1, justifyContent: "space-between", flexDirection: "row", marginHorizontal: 30 }} >
                 <View style={{ flexDirection: 'row' }}>
-                  <Image style={{ width: 40, height: 40 }} source={require('./svg-walking.svg')} />
+                  <Image style={styles.iconeFeed} source={require('./img/svg-walking.svg')} />
                   <View style={{ marginHorizontal: 10, alignContent: 'center' }}>
                     <Text style={styles.basicTitle}>{item.payload.type}</Text>
                     {item.payload.steps < 999 ?
@@ -75,13 +71,13 @@ export default function App() {
                 </View>
                 <View style={{ flexDirection: 'row', alignItems: "center" }}>
                   <Text style={{ color: "white" }}>{item.payload.points}</Text>
-                  <Image style={{ width: 15, height: 15, marginLeft: 5 }} source={require('./light.png')} />
+                  <Image style={{ width: 15, height: 15, marginLeft: 5 }} source={require('./img/light.png')} />
                 </View>
               </View> :
               item.type == "activity" && item.payload.type == "Cycling" ?
                 <View style={{ flex: 1, justifyContent: "space-between", flexDirection: "row", marginHorizontal: 30 }} >
                   <View style={{ flexDirection: 'row' }}>
-                    <Image style={{ width: 40, height: 40 }} source={require('./lost.jpg')} />
+                    <Image style={styles.iconeFeed} source={require('./img/lost.jpg')} />
                     <View style={{ marginHorizontal: 10, alignContent: 'center' }}>
                       <Text style={styles.basicTitle}>{item.payload.type}</Text>
                         <Text style={styles.basicText}>{item.payload.distance / 1000} km - {Math.trunc((item.payload.duration / 60) / 60)}:{Math.trunc((item.payload.duration / 60) % 60)}:00  </Text> 
@@ -89,33 +85,33 @@ export default function App() {
                   </View>
                   <View style={{ flexDirection: 'row', alignItems: "center" }}>
                       <Text style={{ color: "white" }}>{item.payload.points}</Text>
-                      <Image style={{ width: 15, height: 15, marginLeft: 5 }} source={require('./light.png')} />
+                      <Image style={{ width: 15, height: 15, marginLeft: 5 }} source={require('./img/light.png')} />
                     </View>
 
                 </View> :
                 item.type == "bonus" ?
                   <View style={{ flex: 1, justifyContent: "space-between", flexDirection: "row", marginHorizontal: 30 }}>
                     <View style={{ flexDirection: 'row' }}>
-                      <Image style={{ width: 40, height: 40 }} source={require('./svg1.svg')} />
+                      <Image style={styles.iconeFeed} source={require('./img/svg1.svg')} />
                       <Text style={styles.bonusText}>{item.payload.bonusName}</Text>
                     </View>
                     <View style={{ flexDirection: 'row', alignItems: "center" }}>
                       <Text style={{ color: "white" }}>{item.payload.points}</Text>
-                      <Image style={{ width: 15, height: 15, marginLeft: 5 }} source={require('./light.png')} />
+                      <Image style={{ width: 15, height: 15, marginLeft: 5 }} source={require('./img/light.png')} />
                     </View>
                   </View> :
                   item.type == "challenge" ?
                     <View>
                       <View style={{ flex: 1, justifyContent: "space-between", flexDirection: "row", marginHorizontal: 30 }}>
                         <View style={{ flexDirection: 'row' }}>
-                          <Image style={{ width: 40, height: 40, tintColor: "" }} source={require('./svg-flag.svg')} />
+                          <Image style={styles.iconeFeed} source={require('./img/svg-flag.svg')} />
                           <View style={{ marginHorizontal: 10, alignContent: 'center' }}>
                             <Text style={styles.basicTitle}>{item.payload.display.title}</Text>
                             <Text style={styles.basicText}>{item.payload.display.en.title}</Text>
                           </View>
                         </View>
                       </View>
-                      <Image style={{ width: 100, height: 100, tintColor: "", alignSelf: "center" }} source={item.payload.display.badge} />
+                      <Image style={{ width: 100, height: 100, alignSelf: "center", marginVertical: 10 }} source={item.payload.display.badge} />
                     </View> : null
             }
           </View>
@@ -125,6 +121,9 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
+  iconeFeed:{
+    width: 40, height: 40
+  },
   basicText: {
     color: "white"
   },
@@ -135,6 +134,7 @@ const styles = StyleSheet.create({
   bonusText: {
     color: "gold",
     alignSelf: 'center',
+    fontWeight: "bold",
     marginHorizontal: 10
   },
 });
