@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, FlatList, Dimensions, Image } from 'react-native';
 
-var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
-var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
 const { height } = Dimensions.get("window");
 const { width } = Dimensions.get("window");
@@ -47,48 +47,50 @@ export default function App() {
   })
   console.log(data.data)
   return (
-    <View style={styles.container}>
+    <View style={{backgroundColor: "black", width: width}}>
       <FlatList
         data={data.data}
         renderItem={({ item, index }) =>
-          <View style={{ backgroundColor: "black", width: width }}>
+          <View style={{ marginVertical : 10 }}>
             {index > 0 ?
               cmpDate(item.date, data.data[index - 1].date) ?
                 <View>
-                  <Text style={{ color: 'white' }}>{days[new Date(item.date).getDay()]} {new Date(item.date).getDate()} {months[new Date(item.date).getMonth()]}</Text>
+                  <Text style={{ color: 'white', marginLeft : 30, marginBottom : 10 }}>{days[new Date(item.date).getDay()]} {new Date(item.date).getDate()} {months[new Date(item.date).getMonth()]}</Text>
                 </View>
                 : null
               : <View>
-                    <Text style={{ color: 'white' }}>{days[new Date(item.date).getDay()]} {new Date(item.date).getDate()} {months[new Date(item.date).getMonth()]}</Text>
+                <Text style={{ color: 'white', marginLeft : 30, marginBottom : 10, marginTop: 10 }}>{days[new Date(item.date).getDay()]} {new Date(item.date).getDate()} {months[new Date(item.date).getMonth()]}</Text>
               </View>
             }
             {item.type == "activity" ?
-              <View style={{ flex: 1, justifyContent: "space-between", flexDirection: "row", }} >
+              <View style={{ flex: 1, justifyContent: "space-between", flexDirection: "row", marginHorizontal: 30}} >
                 <View style={{ flexDirection: 'row' }}>
                   <Image style={{ width: 40, height: 40 }} source={require('./svg-walking.svg')} />
-                  <View>
-                    <Text style={{ color: "white" }}>{item.payload.type}</Text>
-                    <Text style={{ color: "white" }}>{item.payload.steps} pas</Text>
+                  <View style={{marginHorizontal : 10, alignContent: 'center'}}>
+                    <Text style={styles.basicTitle}>{item.payload.type}</Text>
+                    {item.payload.steps < 999 ?
+                    <Text style={styles.basicText}>{item.payload.steps} pas</Text> :  
+                    <Text style={styles.basicText}>{Math.trunc(item.payload.steps / 1000 ) } {item.payload.steps % 1000} pas</Text>}
                   </View>
                 </View>
                 <Text style={{ color: "white" }}>{item.payload.points}</Text>
               </View> :
               item.type == "bonus" ?
-                <View style={{ flex: 1, justifyContent: "space-between", flexDirection: "row", }}>
+                <View style={{ flex: 1, justifyContent: "space-between", flexDirection: "row", marginHorizontal: 30 }}>
                   <View style={{ flexDirection: 'row' }}>
                     <Image style={{ width: 40, height: 40 }} source={require('./svg1.svg')} />
-                    <Text style={{ color: "gold" }}>{item.payload.bonusName}</Text>
+                    <Text style={styles.bonusText}>{item.payload.bonusName}</Text>
                   </View>
-                  <Text style={{ color: "gold" }}>{item.payload.points}</Text>
+                  <Text style={styles.basicText}>{item.payload.points}</Text>
                 </View> :
                 item.type == "challenge" ?
                   <View>
-                    <View style={{ flex: 1, justifyContent: "space-between", flexDirection: "row", }}>
+                    <View style={{ flex: 1, justifyContent: "space-between", flexDirection: "row", marginHorizontal: 30 }}>
                       <View style={{ flexDirection: 'row' }}>
                         <Image style={{ width: 40, height: 40, tintColor: "" }} source={require('./svg-flag.svg')} />
-                        <View>
-                          <Text style={{ color: "white" }}>{item.payload.display.title}</Text>
-                          <Text style={{ color: "white" }}>{item.payload.display.en.title}</Text>
+                        <View style={{marginHorizontal : 10, alignContent: 'center'}}>
+                          <Text style={styles.basicTitle}>{item.payload.display.title}</Text>
+                          <Text style={styles.basicText}>{item.payload.display.en.title}</Text>
                         </View>
                       </View>
                     </View>
@@ -102,10 +104,16 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+  basicText: {
+    color: "white"
+  },
+  basicTitle:{
+    color: "white",
+    fontWeight: "bold"
+  },
+  bonusText: {
+    color: "gold",
+    alignSelf: 'center',
+    marginHorizontal : 10
   },
 });
