@@ -28,6 +28,7 @@ export default function App() {
   }, []);
 */
   const data = require('./feed.json');
+  console.log(data)
   data.data.sort(function (a, b) {
     let c = new Date(a.date);
     let d = new Date(b.date);
@@ -41,7 +42,7 @@ export default function App() {
           <View style={{ marginVertical: 10 }}>
             <HeaderDate index={index} date={item.date} difDay={data.data[index - 1]}></HeaderDate>
             {item.type == "activity" ?
-              <Activity type={item.payload.type} titre={item.payload.type} image={require('./img/svg-walking.svg')} points={item.payload.points} value={item.payload}></Activity>
+              <Activity type={item.payload.type} titre={item.payload.type} points={item.payload.points} value={item.payload}></Activity>
               :
               item.type == "bonus" ?
                 <Cell image={require('./img/svg1.svg')} points={item.payload.points}>
