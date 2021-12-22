@@ -15,9 +15,10 @@ const styles = StyleSheet.create({
     },
     bonusText: {
       color: "gold",
-      alignSelf: 'center',
       fontWeight: "bold",
-      marginHorizontal: 10
+    },
+    imageChallenge: {
+        width: 100, height: 100, alignSelf: "center", marginVertical: 10
     },
   });
 
